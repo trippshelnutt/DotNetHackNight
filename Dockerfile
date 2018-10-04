@@ -1,3 +1,7 @@
+# COMMANDS
+# docker build -t dotnethacknight .
+# docker run -it --rm -p 5000:80 --name dnhn dotnethacknight
+
 # BUILD
 FROM microsoft/dotnet:2.1-sdk AS build
 WORKDIR /app
