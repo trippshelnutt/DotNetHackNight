@@ -1,5 +1,7 @@
 CREATE DATABASE DotNetHackNight
 
+USE DotNetHackNight;
+
 CREATE TABLE [User] (
     UserId UNIQUEIDENTIFIER NOT NULL,
     PRIMARY KEY (UserId)
